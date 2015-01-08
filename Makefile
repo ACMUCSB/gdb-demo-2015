@@ -1,11 +1,11 @@
 default:
-	gcc -w -o prog value_impl.c production_impl.c demo.c
+	gcc -w -o generate15 value_impl.c production_impl.c demo.c
 
 debug:
-	gcc -g -w -o prog value_impl.c production_impl.c demo.c
+	gcc -g -w -o generate15 value_impl.c production_impl.c demo.c
 
 gdb: debug
-	gdb -tui prog
+	gdb -tui generate15
 
 clean:
 	rm *~ -f

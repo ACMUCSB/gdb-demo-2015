@@ -3,5 +3,6 @@ int getStartValue() {
 }
 
 int getEndValue() {
+	// Copy Paste from getStartValue! YAY!
     return getStartValueImpl();
 }
